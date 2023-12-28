@@ -1,0 +1,92 @@
+@import './variables.scss';
+
+.container{
+    .finishing-container{
+       // margin: 0px 80px;
+    
+        h1 {
+            color: $marine-blue;
+            margin-bottom: 5px;
+        }
+    
+        span {
+            display: block;
+            color: $light-gray;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+
+        .chosen-info{
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: hsla(243, 92%, 64%, 0.1);
+            .chosen-plan{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                padding-bottom: 25px;
+                border-bottom: 1px solid $light-gray;
+                .plan-name{
+                   h1{
+                    margin-top: 0;
+                    font-size: 17px;
+                   }
+                   a{
+                    font-size: 14px;
+                    color: $purplish-blue;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: $purplish-blue;
+                        text-decoration: underline;
+                    }
+                   }
+                }
+                .plan-price{
+                    display: flex;
+                    span{
+                        margin: auto;
+                        color: $marine-blue;
+                    }
+                }
+            }
+
+            .chosen-addOns{
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                tr{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 20px;
+
+                    .addOn-name{
+                        color: $cool-gray;
+                    }
+                    .addOn-price{
+                        color: $marine-blue;
+                    }
+                    
+                }
+            }
+        }
+
+        .total-price{
+            display: flex;
+            justify-content: space-between;
+            //padding: 20px;
+            h1{
+                color: $cool-gray;
+                font-size: 17px;
+                margin: 0;
+            }
+
+            span{
+                color: $purplish-blue;
+                font-size: 20px;
+            }
+        }
+    }
+}

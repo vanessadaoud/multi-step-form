@@ -1,0 +1,26 @@
+.container .personal h1 {
+  color: #02295a;
+  margin-bottom: 0px; }
+.container .personal p {
+  color: #d6d9e6;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-weight: bold; }
+.container .personal button {
+  display: flex;
+  margin-left: auto;
+  background-color: #02295a;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .container .personal button:hover {
+    color: #02295a;
+    background-color: white;
+    cursor: pointer; }
+
+/*# sourceMappingURL=personalInfo.css.map */

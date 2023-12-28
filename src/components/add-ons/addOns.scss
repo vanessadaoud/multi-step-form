@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.container{
+    .add-ons{
+       // margin: 0px 80px;
+    
+        h1 {
+            color: $marine-blue;
+            margin-bottom: 5px;
+        }
+    
+        .addSpan {
+            display: block;
+            color: $light-gray;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+
+        .check-boxes{
+            margin-bottom: 70px;
+        }
+    }
+}

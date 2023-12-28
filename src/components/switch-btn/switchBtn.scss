@@ -1,0 +1,65 @@
+@import './variables.scss';
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(243, 92%, 64%, 0.1);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    gap: 10px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 26px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  
+    &:before {
+      content: '';
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+  }
+  
+  input:checked + .slider {
+    background-color: $marine-blue;
+  
+    &:before {
+      transform: translateX(20px);
+    }
+  }
+  
+  .active {
+    font-weight: bold;
+    color: $marine-blue;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  

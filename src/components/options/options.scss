@@ -1,0 +1,55 @@
+@import './variables.scss';
+
+.options-container{
+    background-image: url('../../../public/back.jpg');
+    width: 288px;
+    background-size: cover;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-right: 80px;
+
+    .option{
+        display: flex;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        &.completed {
+            .circle{
+                background-color: $light-blue;
+                color: black;
+            }
+        }
+       
+        .circle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid $white;
+            width: 30px;
+            height: 30px;
+            color: $white;
+            margin-right: 20px;
+
+            &:hover{
+                background-color: $light-blue;
+                border-color: $light-blue;
+                color: black;
+                cursor: pointer;
+            }
+        }
+
+        .option-content{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-size: 12px;
+
+            .span{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}

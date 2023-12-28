@@ -1,0 +1,12 @@
+.container .add-ons h1 {
+  color: #02295a;
+  margin-bottom: 5px; }
+.container .add-ons .addSpan {
+  display: block;
+  color: #d6d9e6;
+  margin-bottom: 50px;
+  font-weight: bold; }
+.container .add-ons .check-boxes {
+  margin-bottom: 70px; }
+
+/*# sourceMappingURL=addOns.css.map */

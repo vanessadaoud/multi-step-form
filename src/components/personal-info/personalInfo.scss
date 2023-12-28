@@ -1,0 +1,50 @@
+@import './variables.scss';
+.container{  
+    .personal{
+     //   margin: 0px 80px;
+        h1{
+            color: $marine-blue;
+            margin-bottom: 0px;
+        }
+        p{
+            color: $light-gray;
+            margin-top: 5px;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        // .form-content{
+        //     display: flex;
+        //     flex-direction: column;
+        
+        //     label{
+        //         margin-bottom: 10px;
+        //     }
+        //     input{
+        //         margin-bottom: 30px;
+        //         height: 30px;
+        //         border-radius: 10px;
+        //     }
+        // }
+        button{
+            display: flex;
+            margin-left: auto;
+            background-color: $marine-blue;
+            color: $white;
+            font-size: 14px;
+            border-radius: 10px;
+            border: none;
+            transition: color 0.3s, background-color 0.3s;
+            padding: 15px 30px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            
+        
+            &:hover{
+                color: $marine-blue;
+                background-color: $white;
+                cursor: pointer;
+            }
+        }
+      
+    }
+}

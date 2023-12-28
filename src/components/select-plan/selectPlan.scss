@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.container {
+   
+    .plan {
+      //  margin: 0px 80px;
+
+        h1 {
+            color: $marine-blue;
+            margin-bottom: 0px;
+        }
+
+        p {
+            color: $light-gray;
+            margin-top: 5px;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+
+        .cards{
+            display: flex;
+
+        }
+    }
+}

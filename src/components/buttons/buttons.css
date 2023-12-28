@@ -1,0 +1,28 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .btn-container button {
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px; }
+  .btn-container .back {
+    background-color: white;
+    color: #02295a;
+    border: none; }
+    .btn-container .back:hover {
+      cursor: pointer;
+      font-size: 16px;
+      transition: font-size 0.3s ease; }
+  .btn-container .next {
+    background-color: #02295a;
+    color: white;
+    border: none;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 15px 30px; }
+    .btn-container .next:hover {
+      color: #02295a;
+      background-color: white;
+      cursor: pointer; }
+
+/*# sourceMappingURL=buttons.css.map */

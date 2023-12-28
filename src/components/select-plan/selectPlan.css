@@ -1,0 +1,12 @@
+.container .plan h1 {
+  color: #02295a;
+  margin-bottom: 0px; }
+.container .plan p {
+  color: #d6d9e6;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-weight: bold; }
+.container .plan .cards {
+  display: flex; }
+
+/*# sourceMappingURL=selectPlan.css.map */

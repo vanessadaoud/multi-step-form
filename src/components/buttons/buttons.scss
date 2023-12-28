@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    button {
+        padding: 15px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    .back{
+        background-color: $white;
+        color: $marine-blue;
+        border: none;
+        &:hover{
+            cursor: pointer;
+            font-size: 16px;
+            transition: font-size 0.3s ease;
+        }
+    }
+
+    .next{
+        background-color: $marine-blue;
+        color: $white;
+        border: none;
+        transition: color 0.3s, background-color 0.3s;
+        padding: 15px 30px;
+        &:hover{
+            color: $marine-blue;
+            background-color: $white;
+            cursor: pointer;
+        }
+    } 
+}

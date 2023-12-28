@@ -1,0 +1,57 @@
+.container .finishing-container h1 {
+  color: #02295a;
+  margin-bottom: 5px; }
+.container .finishing-container span {
+  display: block;
+  color: #d6d9e6;
+  margin-bottom: 50px;
+  font-weight: bold; }
+.container .finishing-container .chosen-info {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(87, 79, 248, 0.1); }
+  .container .finishing-container .chosen-info .chosen-plan {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d6d9e6; }
+    .container .finishing-container .chosen-info .chosen-plan .plan-name h1 {
+      margin-top: 0;
+      font-size: 17px; }
+    .container .finishing-container .chosen-info .chosen-plan .plan-name a {
+      font-size: 14px;
+      color: #574ff8;
+      text-decoration: none; }
+      .container .finishing-container .chosen-info .chosen-plan .plan-name a:hover {
+        color: #574ff8;
+        text-decoration: underline; }
+    .container .finishing-container .chosen-info .chosen-plan .plan-price {
+      display: flex; }
+      .container .finishing-container .chosen-info .chosen-plan .plan-price span {
+        margin: auto;
+        color: #02295a; }
+  .container .finishing-container .chosen-info .chosen-addOns table {
+    width: 100%;
+    border-collapse: collapse; }
+  .container .finishing-container .chosen-info .chosen-addOns tr {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px; }
+    .container .finishing-container .chosen-info .chosen-addOns tr .addOn-name {
+      color: #9699ab; }
+    .container .finishing-container .chosen-info .chosen-addOns tr .addOn-price {
+      color: #02295a; }
+.container .finishing-container .total-price {
+  display: flex;
+  justify-content: space-between; }
+  .container .finishing-container .total-price h1 {
+    color: #9699ab;
+    font-size: 17px;
+    margin: 0; }
+  .container .finishing-container .total-price span {
+    color: #574ff8;
+    font-size: 20px; }
+
+/*# sourceMappingURL=finishing.css.map */

@@ -1,0 +1,40 @@
+.options-container {
+  background-image: url("../../../public/back.jpg");
+  width: 288px;
+  background-size: cover;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-right: 80px; }
+  .options-container .option {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .options-container .option.completed .circle {
+      background-color: #bfe2fd;
+      color: black; }
+    .options-container .option .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 1px solid white;
+      width: 30px;
+      height: 30px;
+      color: white;
+      margin-right: 20px; }
+      .options-container .option .circle:hover {
+        background-color: #bfe2fd;
+        border-color: #bfe2fd;
+        color: black;
+        cursor: pointer; }
+    .options-container .option .option-content {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 12px; }
+      .options-container .option .option-content .span {
+        font-size: 14px;
+        font-weight: bold; }
+
+/*# sourceMappingURL=options.css.map */

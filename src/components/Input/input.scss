@@ -1,0 +1,15 @@
+@import './variables.scss';
+.form-content{
+    display: flex;
+    flex-direction: column;
+
+    label{
+        margin-bottom: 10px;
+    }
+    input{
+        margin-bottom: 20px;
+        height: 30px;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+}
